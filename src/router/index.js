@@ -5,6 +5,7 @@ import Router from 'vue-router'
 const index = r => require.ensure([], () => r(require('../views/Index.vue')), 'index')
 
 import otherRouters from './module/others'
+import debateRouters from './module/debate'
 
 Vue.use(Router)
 
@@ -24,4 +25,5 @@ const router = new Router({
   ]
 })
 router.addRoutes(otherRouters)
+router.addRoutes(debateRouters)
 export default router
