@@ -22,9 +22,11 @@
 }
 
 .clearFix:after {
-  content: '';
-  display: table;
+  content: ".";
+  display: block;
+  height: 0;
   clear: both;
+  visibility: hidden
 }
 .hand{
   cursor: pointer;
