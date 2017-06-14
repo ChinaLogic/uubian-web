@@ -80,7 +80,7 @@
     }
   }
 </script>
-<style src="../../res/css/others/style.css"></style>
+<!--<style src="../../res/css/others/style.css"></style>-->
 <style scoped>
 
 </style>

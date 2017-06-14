@@ -18,9 +18,9 @@
     computed: {},
     methods: {},
     created () {
-      this.isPublish = this.$config.isPublish
     },
     activated () {
+      this.isPublish = this.$config.isPublish
     },
     deactivated () {
     }

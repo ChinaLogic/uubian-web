@@ -33,7 +33,6 @@
     computed: {},
     methods: {},
     created () {
-      this.isPublish = this.$config.isPublish
     },
     activated () {
     },
@@ -41,16 +40,17 @@
     },
     watch: {
       '$route' (to, from) {
-        console.log('%c =============== VINSEA提示：路由改变了 ===============', 'color:green')
+        console.log('%c =============== 路由改变了 =============== %c 来自App.vue', "font-family:'Microsoft YaHei';color:green;font-size:24px", "font-family:'Microsoft YaHei';color:green;font-size:14px")
       }
     }
   }
 </script>
 
 <style src="./res/css/index.css"></style>
+<style src="./res/css/common/common.css"></style>
 <style src="./res/css/common/reset.css"></style>
 <style>
-  
+
   /*切换页面的动画*/
   .slide-fade-enter-active {
     transition: all .3s ease;

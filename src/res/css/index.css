@@ -3,3 +3,22 @@
  * CreateDate:2017/6/9.
  * Describe:首页的css
  */
+
+/* 头部样式
+   ========================================================================== */
+.ub-header {
+  height: 50px;
+}
+
+.ub-logo-img {
+  margin-top: 8px;
+}
+
+.ub-nav-ul {
+  color: #8590a6;
+  line-height: 50px;
+}
+
+.ub-nav-li {
+  margin-left: 30px;
+}
